@@ -3,19 +3,19 @@
 }
 
 .App-logo {
-  height: 60vh;
-  width: 70vw;
+  height: 65vh;
+  width: 75vw;
 }
 
 .App-header {
-  background-color: ffffff;
+  background-color: beige;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(20px + 2vmin);
+  color: black;
 }
 
 .App-link {
