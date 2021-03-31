@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 //import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import cardImage from '../img/goal1.jpeg';
+import cardImage from '../img/chair.jpeg';
 
 const useStyles = makeStyles({
   root: {
@@ -40,16 +40,10 @@ return (
           />
           <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-              Drop My Times
+              Item One
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          “The secret of my success over the 400m is that I run the first 200m as fast as I can.
-          Then, for the second 200m, with God's help I run faster.”
-          <br />
-          -Eric Liddell
-          <br />
-          In this spirit, I decided not to put exact numbers on this goal to avoid fixating on 
-          my times and discouraging myself. Keep the trend going down!
+            Chair
           </Typography>
           </CardContent>
       </CardActionArea>
