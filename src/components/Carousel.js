@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 import IMGOne from '../img/IMG1_Kitchen.JPG';
-import checkmark from '../img/checkmark.png';
+import DescriptionOne from '../img/DescriptionOne.png';
+import './DescriptionOne.css';
 import IMGTwo from '../img/IMG_0499.JPG';
 import IMGThree from '../img/IMG_0501.JPG';
 import IMGFour from '../img/IMG_0500.JPG';
@@ -17,7 +18,7 @@ const Carousel = () => {
 
     const [isChecked, setIsChecked] = useState(false);
 
-    const checkbox = isChecked ? checkmark : IMGOne;
+    const checkbox = isChecked ? DescriptionOne : IMGOne;
 
     const toggleCheck = () => {
         setIsChecked(!isChecked);
@@ -28,7 +29,7 @@ return (
     <div>
         <AppHeader />
         <AliceCarousel autoPlay autoPlayInterval="3000" className="Carousel">
-            <img src={checkbox} className="sliderimg" onMouseEnter={toggleCheck} onMouseLeave={toggleCheck}/>
+            <img src={checkbox} className="sliderimg" onClick={toggleCheck}/>
             <img src={IMGTwo} className="sliderimg"/>
             <img src={IMGThree} className="sliderimg"/>
             <img src={IMGFour} className="sliderimg"/>
