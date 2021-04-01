@@ -12,8 +12,13 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
+  aboutButton: {
+    marginLeft: 880,
+    color: 'beige',
+  },
   contactButton: {
-    marginLeft: 944,
+    marginLeft: 12,
+    color: 'beige',
   },
   title: {
     flexGrow: 1,
@@ -34,8 +39,11 @@ export default function ButtonAppBar() {
               SB Classical Woodworking
             </Typography>
           </a>
-          <a href='/contact' style={{textDecoration: 'inherit', color: 'beige'}}>
-            <Button className={classes.contactButton} color="inherit">Contact Me</Button>
+          <a href='/about' style={{textDecoration: 'inherit'}}>
+            <Button className={classes.aboutButton}>About</Button>
+          </a>
+          <a href='/contact' style={{textDecoration: 'inherit'}}>
+            <Button className={classes.contactButton} color="inherit">Contact</Button>
           </a>
         </Toolbar>
       </AppBar>
