@@ -1,10 +1,20 @@
+.container {
+  position: relative;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .sliderimg {
   opacity: 1;
-  width: 60%;
   height: 600px;
   transition: .5s ease;
   backface-visibility: hidden;
-  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
 }
 
 .middle {
