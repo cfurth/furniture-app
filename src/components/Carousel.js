@@ -116,11 +116,6 @@ return (
                 </div>
             </div>
         </AliceCarousel>
-        <div className="Contact-Info">
-            <h2>Contact Information</h2>
-                <h3>(607)-423-8097</h3>
-                <h3>scottebates@me.com</h3>
-        </div>
         <br />
     </div>
     );
