@@ -9,7 +9,13 @@ import IMGFive from '../img/IMG_0304.JPG';
 import IMGSix from '../img/IMG_0473.JPG';
 import IMGSeven from '../img/IMG_0272.JPG';
 import IMGEight from '../img/IMG_0273.JPG';
-import IMGNine from '../img/IMG_0380.JPG';
+import IMGNine from '../img/IMG_0274.jpg';
+import IMGTen from '../img/IMG_0380.JPG';
+import IMGEleven from '../img/IMG_0004.jpg';
+import IMGTwelve from '../img/IMG_0009.JPG';
+import IMGThirteen from '../img/IMG_0022.jpg';
+import IMGFourteen from '../img/IMG_0020.jpg';
+import IMGFifteen from '../img/IMG_0018.jpg';
 import './Carousel.css';
 import AppHeader from './AppHeader.js';
 
@@ -28,16 +34,87 @@ return (
             <div className="container">
                 <img src={IMGTwo} className="sliderimg"/>
                 <div className="middle">
-                    <div className="text">A Shaker inspired nightstand in cherry with hand cut dovetails in a solid maple drawer</div>
+                    <div className="text">My take on a Shaker nightstand in cherry with hand cut dovetails in a solid maple drawer with a turned walnut drawer pull</div>
                 </div>
             </div>
+            <div className="container">
             <img src={IMGThree} className="sliderimg"/>
-            <img src={IMGFour} className="sliderimg"/>
+            <div className="middle">
+                    <div className="text">My take on a Shaker nightstand in cherry with hand cut dovetails in a solid maple drawer with a turned walnut drawer pull</div>
+                </div>
+            </div>
+            <div className="container">
+                <img src={IMGFour} className="sliderimg"/>
+                <div className="middle">
+                    <div className="text">My take on a Shaker nightstand in cherry with hand cut dovetails in a solid maple drawer with a turned walnut drawer pull</div>
+                </div>
+            </div>
+            <div className="container">
             <img src={IMGFive} className="sliderimg"/>
-            <img src={IMGSix} className="sliderimg"/>
-            <img src={IMGSeven} className="sliderimg"/>
-            <img src={IMGEight} className="sliderimg"/>
-            <img src={IMGNine} className="sliderimg"/>
+            <div className="middle">
+                    <div className="text">A jewelers bench with turned feet in the Shaker style out of cherry and maple</div>
+                </div>
+            </div>
+            <div className="container">
+                <img src={IMGSix} className="sliderimg"/>
+                <div className="middle">
+                    <div className="text">Another jewelers bench of my design in red oak </div>
+                </div>
+            </div>
+            <div className="container">
+                <img src={IMGSeven} className="sliderimg"/>
+                <div className="middle">
+                    <div className="text">A bar made in sapele with a granite veneer</div>
+                </div>
+            </div>
+            <div className="container">
+                <img src={IMGEight} className="sliderimg"/>
+                <div className="middle">
+                    <div className="text">A bar made in sapele with a granite veneer</div>
+                </div>
+            </div>
+            <div className="container">
+                <img src={IMGNine} className="sliderimg"/>
+                <div className="middle">
+                    <div className="text">The back of the bar</div>
+                </div>
+            </div>
+            <div className="container">
+                <img src={IMGTen} className="sliderimg"/>
+                <div className="middle">
+                    <div className="text">A shuffleboard table in sapele and maple</div>
+                </div>
+            </div>
+            <div className="container">
+                <img src={IMGEleven} className="sliderimg"/>
+                <div className="middle">
+                    <div className="text">Sapele wall unit</div>
+                </div>
+            </div>
+            <div className="container">
+                <img src={IMGTwelve} className="sliderimg"/>
+                <div className="middle">
+                    <div className="text">Sapele wall unit</div>
+                </div>
+            </div>
+            <div className="container">
+                <img src={IMGThirteen} className="sliderimg"/>
+                <div className="middle">
+                    <div className="text">Another jewelers bench out of cherry with walnut inlays and dovetailed walnut feet</div>
+                </div>
+            </div>
+            <div className="container">
+                <img src={IMGFourteen} className="sliderimg"/>
+                <div className="middle">
+                    <div className="text">Another jewelers bench out of cherry with walnut inlays and dovetailed walnut feet</div>
+                </div>
+            </div>
+            <div className="container">
+                <img src={IMGFifteen} className="sliderimg"/>
+                <div className="middle">
+                    <div className="text">Another jewelers bench out of cherry with walnut inlays and dovetailed walnut feet</div>
+                </div>
+            </div>
         </AliceCarousel>
         <div className="Contact-Info">
             <h2>Contact Information</h2>
