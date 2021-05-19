@@ -2,3 +2,19 @@
     color: #3c9e49;
     opacity: 89%;
   }
+
+  .About-Text {
+      color: black;
+      text-align: left;
+      font-size: 17px;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-bottom: 16px;
+      padding-top: 12px;
+  }
+
+  .About-Photo {
+      height: 41%;
+      width: 43%;
+      padding-bottom: 5%;
+  }
